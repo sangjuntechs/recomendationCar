@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8" />
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Shadows+Into+Light&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="index.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Car recomendation</title>
+</head>
+
+<body>
+  <div class="contents_box">
+    <div class="index">Check Your Salary !</div>
+    <div class="salary_box"><input id="salary" type="number" />만 원</div>
+    <button id="btn" onclick="getSalary(),getCars()">Check</button>
+  </div>
+
+  <div class="main">
+
+    <div class="discript">
+      <div class="salary_result"></div>
+      <div class="detail">
+
+        <div class="image">
+          <img id="image" src="" alt="image" />
+        </div>
+        <div class="more_detail">
+        <div class="brand"></div>
+        <div class="model_name"></div>
+        <div class="price"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="getSalary.js"></script>
+  <script src="getCar.js"></script>
+</body>
+
+</html>
