@@ -15,11 +15,12 @@ body {
     background-color: rgb(0, 0, 0);
 }
 #salary {
-    margin-right: 5px;
+    margin-right: 10px;
     font-family: 'Nanum Pen Script', cursive;
     font-size: 25px;
     font-weight: 600;
     padding: 10px;
+    background-color: rgb(221, 221, 221);
 }
 #image {
     border-radius: 20px;
@@ -116,4 +117,33 @@ body {
 
 .salary_result {
     font-size: 40px;
+}
+
+.subIndex {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 20px;
+    color: rgb(17, 17, 160);
+    letter-spacing: 2px;
+    margin-bottom: 50px;
+}
+
+footer {
+    padding: 50px;
+    color: white;
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 20px;
+    text-align: center;
+}
+
+.tip {
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-top: 30px;
+}
+
+.errtip {
+    color: rgb(199, 18, 18);
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-top: 30px;
 }
